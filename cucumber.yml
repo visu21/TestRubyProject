@@ -1,0 +1,4 @@
+default: --no-source --color --format pretty --format html --out results.html
+dev_cars: --no-source --color --format pretty --format html --out results.html --tags @5
+dev_3: --no-source --color --format pretty --format html --out results.html --tags @3
+dev_2: --no-source --color --format pretty --format html --out results.html --tags @2
