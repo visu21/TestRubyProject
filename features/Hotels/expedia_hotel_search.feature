@@ -17,11 +17,11 @@ Feature: Expedia Hotel Search
 #
 #
 ##  Declarative
-  @2
-  Scenario: Verify the user gets an error message when searching for past date hotels
-    When user select Columbus, OH airport for the city columbus in the Going to field
-    Then verify the user is warned with a message
-#
+#  @2
+#  Scenario: Verify the user gets an error message when searching for past date hotels
+#    When user select Columbus, OH airport for the city columbus in the Going to field
+#    Then verify the user is warned with a message
+##
 ##
 
 #  @3
