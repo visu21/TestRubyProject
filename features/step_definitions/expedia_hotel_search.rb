@@ -8,6 +8,7 @@ end
 
 And(/^user select (.*) airport for the city (.*) in the Going to field$/) do |landmark_name, city_name|
   on(ExpediaHotelPage).set_des_hotel landmark_name, city_name
+  step "user searches for #{past} date hotels"
 end
 
 And(/^user searches for (past|feature) date hotels$/) do |past_feature|

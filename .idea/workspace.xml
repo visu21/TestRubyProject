@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364adac4-a450-427f-ab35-00e9fd022052" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/expedia_flight_search.feature" afterPath="$PROJECT_DIR$/features/Flights/expedia_flight_search.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/expedia_hotel_search.feature" afterPath="$PROJECT_DIR$/features/Hotels/expedia_hotel_search.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/test_expedia_flight_search.feature" afterPath="$PROJECT_DIR$/features/Flights/test_expedia_flight_search.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-report/Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels.png" afterPath="$PROJECT_DIR$/html-report/Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-report/verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data.png" afterPath="$PROJECT_DIR$/html-report/verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/expedia_po_sep2016.iml" afterPath="$PROJECT_DIR$/.idea/expedia_po_sep2016.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb" afterPath="$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.html" afterPath="$PROJECT_DIR$/results.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,29 +21,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@test_expedia_flight_search_feature.coverage" NAME="test_expedia_flight_search.feature Coverage Results" MODIFIED="1485468968422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_flight_with_no_data.coverage" NAME="Scenario: verify the user gets an error messages when searching for flight with no data Coverage Results" MODIFIED="1486161976174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@expedia_hotel_search_feature.coverage" NAME="expedia_hotel_search.feature Coverage Results" MODIFIED="1487007785512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__4_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (4) Coverage Results" MODIFIED="1484184883775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__1_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (1) Coverage Results" MODIFIED="1486177365810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_flights__1_.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date flights (1) Coverage Results" MODIFIED="1485628326131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__3_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (3) Coverage Results" MODIFIED="1486176497563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__3_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (3) Coverage Results" MODIFIED="1484171056221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__2_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (2) Coverage Results" MODIFIED="1486692007945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels__1_.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date hotels (1) Coverage Results" MODIFIED="1487014471534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@dev_2__expedia_po_sep2016.coverage" NAME="dev_2: expedia_po_sep2016 Coverage Results" MODIFIED="1487021136637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_flights.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date flights Coverage Results" MODIFIED="1485492704615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_all_4_error_messages_when_searching_for_flight_with_no_data_in_any_of_the_fields.coverage" NAME="Scenario: verify the user gets an all 4 error messages when searching for flight with no data in any of the fields Coverage Results" MODIFIED="1484284671018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__4_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (4) Coverage Results" MODIFIED="1486176571304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__2_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (2) Coverage Results" MODIFIED="1484170784706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date hotels Coverage Results" MODIFIED="1487014425379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_flight_with_no_data__2_.coverage" NAME="Scenario: verify the user gets an error messages when searching for flight with no data (2) Coverage Results" MODIFIED="1484189436110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_all_4_error_messages_when_searching_hotels_with_no_data_in_any_of_the_fields.coverage" NAME="Scenario: verify the user gets an all 4 error messages when searching hotels with no data in any of the fields Coverage Results" MODIFIED="1486176311233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__1_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (1) Coverage Results" MODIFIED="1485904718807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/TestRubyProject@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels__2_.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date hotels (2) Coverage Results" MODIFIED="1487225076595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@test_expedia_flight_search_feature.coverage" NAME="test_expedia_flight_search.feature Coverage Results" MODIFIED="1485468968422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_flight_with_no_data.coverage" NAME="Scenario: verify the user gets an error messages when searching for flight with no data Coverage Results" MODIFIED="1486161976174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__4_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (4) Coverage Results" MODIFIED="1484184883775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__1_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (1) Coverage Results" MODIFIED="1486177365810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/TestRubyProject@dev_2__expedia_po_sep2016.coverage" NAME="dev_2: expedia_po_sep2016 Coverage Results" MODIFIED="1487224712540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/TestRubyProject@expedia_hotel_search_feature__1_.coverage" NAME="expedia_hotel_search.feature (1) Coverage Results" MODIFIED="1487302931784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data__3_.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data (3) Coverage Results" MODIFIED="1486176497563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels__1_.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date hotels (1) Coverage Results" MODIFIED="1487014471534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@dev_2__expedia_po_sep2016.coverage" NAME="dev_2: expedia_po_sep2016 Coverage Results" MODIFIED="1487021136637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__2_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (2) Coverage Results" MODIFIED="1484170784706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
+    <SUITE FILE_PATH="coverage/TestRubyProject@Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels__3_.coverage" NAME="Scenario: Verify the user gets an error message when searching for past date hotels (3) Coverage Results" MODIFIED="1487225086184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data.coverage" NAME="Scenario: verify the user gets an error messages when searching for hotel with no data Coverage Results" MODIFIED="1486177249458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@expedia_flight_search_feature.coverage" NAME="expedia_flight_search.feature Coverage Results" MODIFIED="1485902116190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__verify_the_user_gets_an_error_messages_when_searching_for_flight_with_no_data__1_.coverage" NAME="Scenario: verify the user gets an error messages when searching for flight with no data (1) Coverage Results" MODIFIED="1484186601358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched Coverage Results" MODIFIED="1485902125510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
-    <SUITE FILE_PATH="coverage/expedia_po_sep2016@Scenario__Verify_the_user_gets_the_avaliable_flights_for_the_airport_searched__1_.coverage" NAME="Scenario: Verify the user gets the avaliable flights for the airport searched (1) Coverage Results" MODIFIED="1485904718807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expedia_po_sep2016" />
     <SUITE FILE_PATH="coverage/expedia_po_sep2016@expedia_hotel_search.coverage" NAME="expedia_hotel_search Coverage Results" MODIFIED="1485631494905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="expedia_po_sep2016" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -47,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="expedia_hotel_search.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/expedia_hotel_search.feature">
+      <file leaf-file-name="expedia_hotel_search.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/Hotels/expedia_hotel_search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -60,28 +73,18 @@
       <file leaf-file-name="expedia_hotel_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/expedia_hotel_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
+            <state relative-caret-position="438">
               <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -90,8 +93,8 @@
       <file leaf-file-name="hooks.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -100,18 +103,8 @@
       <file leaf-file-name="expedia_hotel_search.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="92" lean-forward="false" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expedia_home_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/expedia_home_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state relative-caret-position="816">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,13 +141,14 @@
         <option value="$PROJECT_DIR$/features/expedia_flight_search.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/expedia_hotel_page_search_result_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/expedia_flight_search.rb" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/test_expedia_flight_search.feature" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/features/expedia_hotel_search.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/expedia_hotel_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/features/Hotels/expedia_hotel_search.feature" />
       </list>
     </option>
   </component>
@@ -213,6 +207,10 @@
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -228,7 +226,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestRubyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestRubyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hotels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestRubyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestRubyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flights" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,21 +272,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/RubymineProjects/All_projects/expedia_po_sep_2016" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\TestRubyProjects\expedia_po_sep2016" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\TestRubyProjects\expedia_po_sep2016\features" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TestRubyProjects\Git_Testing\expedia_po_sep2016\TestRubyProject\features\Flights" />
+      <recent name="C:\TestRubyProjects\Git_Testing\expedia_po_sep2016\TestRubyProject\features\Hotels" />
+      <recent name="C:\TestRubyProjects\expedia_po_sep2016" />
+    </key>
   </component>
-  <component name="RunManager" selected="Rake.dev_2: expedia_po_sep2016">
-    <configuration default="false" name="expedia_hotel_search.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+  <component name="RunManager" selected="Cucumber.expedia_hotel_search.feature (1)">
+    <configuration default="false" name="Scenario: Verify the user gets an error message when searching for past date hotels (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="expedia_po_sep2016" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -269,10 +305,42 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/expedia_hotel_search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\TestRubyProjects\Git_Testing\expedia_po_sep2016\TestRubyProject\features\Hotels\expedia_hotel_search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Verify the user gets an error message when searching for past date hotels$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features -p dev_cars" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="expedia_hotel_search.feature (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="expedia_po_sep2016" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Hotels/expedia_hotel_search.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features -p dev_cars" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
@@ -303,7 +371,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Verify the user gets an error message when searching for past date hotels" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: Verify the user gets an error message when searching for past date hotels (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="expedia_po_sep2016" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -320,7 +388,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/expedia_hotel_search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Hotels/expedia_hotel_search.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Verify the user gets an error message when searching for past date hotels$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features -p dev_cars" />
@@ -335,7 +403,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Verify the user gets an error message when searching for past date hotels (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: Verify the user gets an error message when searching for past date hotels (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="expedia_po_sep2016" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -352,7 +420,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/expedia_hotel_search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Hotels/expedia_hotel_search.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Verify the user gets an error message when searching for past date hotels$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features -p dev_cars" />
@@ -512,18 +580,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.expedia_hotel_search.feature" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.dev_2: expedia_po_sep2016" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.expedia_hotel_search.feature (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.dev_2: expedia_po_sep2016" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (3)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.dev_2: expedia_po_sep2016" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.expedia_hotel_search.feature" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.expedia_hotel_search.feature (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.dev_2: expedia_po_sep2016" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Verify the user gets an error message when searching for past date hotels (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -551,28 +621,24 @@
       <workItem from="1486158495870" duration="26096000" />
       <workItem from="1486405272291" duration="41172000" />
       <workItem from="1487043444406" duration="1761000" />
-      <workItem from="1487192933031" duration="166000" />
+      <workItem from="1487192933031" duration="11106000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1487211252835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487211252835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels - 2017.02.13 at 14h 33m 49s.xml">
-      <configuration name="Scenario: Verify the user gets an error message when searching for past date hotels" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels_(2) - 2017.02.16 at 01h 04m 41s.xml">
+      <configuration name="Scenario: Verify the user gets an error message when searching for past date hotels (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels_(1) - 2017.02.13 at 14h 34m 37s.xml">
-      <configuration name="Scenario: Verify the user gets an error message when searching for past date hotels (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data_(2) - 2017.02.08 at 13h 04m 32s.xml">
-      <configuration name="Scenario: verify the user gets an error messages when searching for hotel with no data (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data_(2) - 2017.02.08 at 13h 05m 38s.xml">
-      <configuration name="Scenario: verify the user gets an error messages when searching for hotel with no data (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__verify_the_user_gets_an_error_messages_when_searching_for_hotel_with_no_data_(2) - 2017.02.09 at 21h 01m 24s.xml">
-      <configuration name="Scenario: verify the user gets an error messages when searching for hotel with no data (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="expedia_hotel_search_feature - 2017.02.07 at 22h 35m 17s.xml">
-      <configuration name="expedia_hotel_search.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Verify_the_user_gets_an_error_message_when_searching_for_past_date_hotels_(3) - 2017.02.16 at 01h 04m 50s.xml">
+      <configuration name="Scenario: Verify the user gets an error message when searching for past date hotels (3)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="expedia_hotel_search_feature - 2017.02.07 at 22h 50m 30s.xml">
       <configuration name="expedia_hotel_search.feature" configurationId="CucumberRunConfigurationType" />
@@ -586,9 +652,21 @@
     <history-entry file="expedia_hotel_search_feature - 2017.02.13 at 12h 58m 18s.xml">
       <configuration name="expedia_hotel_search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="expedia_hotel_search_feature_(1) - 2017.02.16 at 01h 03m 12s.xml">
+      <configuration name="expedia_hotel_search.feature (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="expedia_hotel_search_feature_(1) - 2017.02.16 at 01h 04m 26s.xml">
+      <configuration name="expedia_hotel_search.feature (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="expedia_hotel_search_feature_(1) - 2017.02.16 at 01h 05m 21s.xml">
+      <configuration name="expedia_hotel_search.feature (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="expedia_hotel_search_feature_(1) - 2017.02.16 at 22h 42m 59s.xml">
+      <configuration name="expedia_hotel_search.feature (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184059000" />
+    <option name="totallyTimeSpent" value="194999000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -601,14 +679,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="647" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.290469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43359375" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36132812" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -627,6 +705,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,7 +735,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -877,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/expedia_flight_search.feature">
+    <entry file="file://$PROJECT_DIR$/features/Flights/expedia_flight_search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
           <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
@@ -952,26 +1034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/test_expedia_flight_search.feature">
+    <entry file="file://$PROJECT_DIR$/features/Flights/test_expedia_flight_search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,10 +1046,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/expedia_flight_search.rb">
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -996,34 +1062,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/expedia_flight_search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="92" lean-forward="false" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+        <state relative-caret-position="860">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/expedia_hotel_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="438">
           <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/expedia_hotel_search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="231">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/expedia_hotel_search.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Hotels/expedia_hotel_search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
